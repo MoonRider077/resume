@@ -1,0 +1,39 @@
+.container {
+    max-width: 1366px;
+    height: 768px;
+    background: url('/images/firstBanner.jpg');
+    margin: auto;
+    display: flex;
+}
+
+.text {
+    font-size: 35px;
+    font-weight: bold;
+    border-right: 5px solid;
+    width: 345px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 1.5s steps(20),
+        cursor .4s step-end infinite alternate;
+}
+
+.text2 {
+    padding-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    border-right: 5px solid;
+    width: 202px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 1.2s steps(10),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+@keyframes typing {
+    from { width: 0 }
+}

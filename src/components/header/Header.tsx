@@ -13,10 +13,10 @@ const Header: React.FC = () => {
   };
 
   return (
-    <div className='max-sm:h-[110px] fixed top-0 left-0 right-0 z-40 max-w-[100%] h-[60px] bg-[#111111] shadow-xl'>
+    <div className='max-sm:h-[150px] fixed top-0 left-0 right-0 z-40 max-w-[100%] h-[60px] bg-[#111111] shadow-xl'>
       <div className='flex justify-between max-w-[1366px] m-auto h-[30px]'>
         <div>
-          <h2 className='max-sm:text-[40px] max-sm:pt-[20px] text-[#cc58cc] pl-[25px] pt-[10px] font-bold text-[25px]'><i>Moon Rider</i></h2>
+          <h2 className='max-sm:text-[50px] max-sm:pt-[35px] text-[#cc58cc] pl-[25px] pt-[10px] font-bold text-[25px]'><i>Moon Rider</i></h2>
         </div>
         <div>
           <Hamburger handleScroll={handleScroll}/>

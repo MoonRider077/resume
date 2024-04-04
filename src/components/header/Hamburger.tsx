@@ -14,7 +14,7 @@ useEffect(() => {
     if (burgerBlockRef.current) {
       if (isOpen) {
         const contentHeight = burgerBlockRef.current.scrollHeight;
-        burgerBlockRef.current.style.height = `${Math.max(contentHeight, 400)}px`;
+        burgerBlockRef.current.style.height = `${Math.max(contentHeight, 500)}px`;
       } else {
         burgerBlockRef.current.style.height = '0';
       }
@@ -37,27 +37,27 @@ return (
             className={`${headerStyles['burger-block']}`}
             style={{ overflow: 'hidden', transition: 'height 0.5s ease' }}
             >
-            <div className={`text-[#cc58cc] text-[40px] p-8 font-medium list-none relative`}>
+            <div className='text-[#cc58cc] text-[50px] pl-[63px] font-medium list-none relative'>
           <a href="#about" onClick={(event) => handleScroll(event, 'about')}>
-            <li className='cursor-pointer hover:text-[#a069d3] duration-1000 relative'>
+            <li className='cursor-pointer hover:text-[#a069d3] duration-1000 relative pt-[42px]'>
               <div className={headerStyles.underline}></div>
               <i>About me</i>
             </li>
           </a>
           <a href="#skills" onClick={(event) => handleScroll(event, 'skills')}>
-            <li className='cursor-pointer hover:text-[#a069d3] duration-1000 relative pt-[30px]'>
+            <li className='cursor-pointer hover:text-[#a069d3] duration-1000 relative pt-[42px]'>
               <div className={headerStyles.underline}></div>
               <i>Skills</i>
             </li>
           </a>
           <a href="#portfolio" onClick={(event) => handleScroll(event, 'portfolio')}>
-            <li className='cursor-pointer hover:text-[#a069d3] duration-1000 relative pt-[30px]'>
+            <li className='cursor-pointer hover:text-[#a069d3] duration-1000 relative pt-[42px]'>
               <div className={headerStyles.underline}></div>
               <i>Portfolio</i>
             </li>
           </a>
           <a href="#contact" onClick={(event) => handleScroll(event, 'contact')}>
-            <li className='cursor-pointer hover:text-[#a069d3] duration-1000 relative pt-[30px]'>
+            <li className='cursor-pointer hover:text-[#a069d3] duration-1000 relative pt-[42px]'>
               <div className={headerStyles.underline}></div>
               <i>Contact me</i>
             </li>

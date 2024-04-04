@@ -4,7 +4,8 @@ import styles from './styles.module.scss'
 const Portfolio = () => {
   return (
     <div id='portfolio' className={styles.container}>
-        <h2 className='text-[35px] text-[white] font-semibold pt-[50px] text-center'>
+        <div>
+            <h2 className='text-[35px] text-[white] font-semibold pt-[50px] text-center'>
             My Portfolio
         </h2>
         <div className='grid grid-cols-2 w-[850px] m-auto mt-[50px] gap-10'>
@@ -28,6 +29,7 @@ const Portfolio = () => {
                 <img src="/images/sss4.png" alt="Weather app" className='w-[380px] h-[200px]'/>
             </div>
         </a>
+        </div>
         </div>
     </div>
   )

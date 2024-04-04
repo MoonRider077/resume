@@ -8,6 +8,7 @@ const SecondSection = () => {
 
   return (
     <div className={styles.container} id="skills">
+     <div className='max-w-[1366px] m-auto'>
      <div className='flex'>
      <div>
      <h2 className='text-[35px] text-[white] pl-[30px] pt-[15px]'>
@@ -27,6 +28,7 @@ const SecondSection = () => {
      </div>
      </div >
      <JobExperience />
+     </div>
     </div>
   )
 }

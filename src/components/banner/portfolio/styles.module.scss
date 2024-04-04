@@ -1,6 +1,8 @@
 .container {
-    max-width: 1366px;
+    max-width: 100vw;
     height: 700px;
     background: url('/images/portfolioBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: auto;
 }

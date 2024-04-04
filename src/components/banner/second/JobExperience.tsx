@@ -2,17 +2,17 @@ import React from 'react'
 
 const JobExperience = () => {
   return (
-    <div>
+    <div className='max-w-[1266px] m-auto'>
         <div className='flex items-center justify-center'>
-        <div className='w-[370px] h-[60px] flex items-center justify-center bg-[transparent] backdrop-blur-[2px] mt-[20px] rounded-[15px]'>
+        <div className='w-[370px] h-[40px] flex items-center justify-center bg-[transparent] backdrop-blur-[2px] mt-[20px] rounded-[15px]'>
         <h2 className='text-[35px] text-[white]'>
             My work experience
         </h2>
         </div>
         </div>
-        <div className='flex gap-6'>
+        <div className='flex'>
         <div>
-        <div className='w-[600px] h-[310px] bg-[transparent] backdrop-blur-[30px] ml-[40px] mt-[10px] rounded-[15px] border border-[purple]'>
+        <div className='w-[600px] h-[310px] bg-[transparent] backdrop-blur-[30px] ml-[15px] mt-[10px] rounded-[15px] border border-[purple]'>
             <h3 className='text-white text-medium text-[21px] pl-[15px] pt-[10px]'>Online Marketing Assistant</h3>
             <p className='text-[#e99191] text-medium text-[19px] pl-[25px] pt-[10px]'>2020 - 2023</p>
             <ul className='text-[white] list-disc pl-[25px]'>

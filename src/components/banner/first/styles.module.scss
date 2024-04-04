@@ -1,7 +1,9 @@
 .container {
-    max-width: 1366px;
-    height: 768px;
+    max-width: 100vw;
+    height: 758px;
     background: url('/images/firstBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: auto;
     display: flex;
 }

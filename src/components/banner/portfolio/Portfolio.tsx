@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 
 const Portfolio = () => {
   return (
-    <div id='portfolio' className={styles.container}>
+    <div id='portfolio' className={`${styles.container} max-sm:invisible`}>
         <div>
             <h2 className='text-[35px] text-[white] font-semibold pt-[50px] text-center'>
             My Portfolio

@@ -39,3 +39,16 @@
 @keyframes typing {
     from { width: 0 }
 }
+
+
+
+@media (max-width: 376px) {
+    .mob-container {
+        width: 375px;
+        height: 768px;
+        background: url('/images/firstBanner-Mob.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; 
+        margin: auto;
+    }
+}

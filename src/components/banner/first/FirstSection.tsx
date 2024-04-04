@@ -5,8 +5,9 @@ import styles from './styles.module.scss';
 const FirstSection = () => {
     
   return (
-    <div id="about" className={styles.container} >
-        <div className='w-[1366px] flex m-auto mt-[20px]'>
+    <div className={`${styles['mob-container']}`}>
+        <div id="about" className={`${styles.container} max-sm:invisible`}>
+        <div className={`max-sm:invisible w-[1366px] flex m-auto mt-[20px]`}>
         <div className='pl-[50px] pt-[80px] text-[white]'>
             <div className='w-[700px] h-[565px] bg-transparent backdrop-blur-[15px] rounded-[35px] p-2 border border-[#733a94]'>
             <div className='pl-[5px]'>
@@ -34,6 +35,7 @@ const FirstSection = () => {
             <img src="/images/certificate.jpg" alt="Hacker" className='rounded-[12px] h-[418px] w-[300px]'/> 
         </div>
         </div>
+    </div>
     </div>
   )
 }

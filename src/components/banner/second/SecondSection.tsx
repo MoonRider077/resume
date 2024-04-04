@@ -7,7 +7,7 @@ import JobExperience from './JobExperience'
 const SecondSection = () => {
 
   return (
-    <div className={styles.container} id="skills">
+    <div className={`${styles.container} max-sm:invisible`} id="skills">
      <div className='max-w-[1366px] m-auto'>
      <div className='flex'>
      <div>

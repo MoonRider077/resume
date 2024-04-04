@@ -4,7 +4,7 @@ import { myContact } from '../banner/second/data'
 
 const Footer = () => {
   return (
-    <div id='contact' className={styles.container}>
+    <div id='contact' className={`${styles.container} max-sm:invisible`}>
         <h2 className='text-[35px] text-[white] text-center pt-[15px]'>Contact me</h2>
         <div className='flex w-[1000px] m-auto mt-[15px] gap-[130px]'>
         {

@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './styles.module.scss';
 
 
-const FirstSection = () => {
+const FirstSection: React.FC = () => {
     
   return (
-    <div className={`${styles['mob-container']}`}>
+    <div className={styles['mob-container']}>
         <div id="about" className={`${styles.container} max-sm:invisible`}>
         <div className={`max-sm:invisible w-[1366px] flex m-auto mt-[20px]`}>
         <div className='pl-[50px] pt-[80px] text-[white]'>

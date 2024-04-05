@@ -41,14 +41,18 @@
 }
 
 
-
-@media (max-width: 376px) {
+@media screen and (max-width: 376px) {
     .mob-container {
         width: 375px;
         height: 768px;
         background: url('/images/firstBanner-Mob.jpg');
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: contain;
         margin: auto;
+        position: absolute;
+        top: 156px;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 }

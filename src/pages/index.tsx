@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './home/index'
 
-const index = () => {
+const index: React.FC = () => {
   return (
     <>
     <Home />

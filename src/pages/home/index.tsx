@@ -5,7 +5,7 @@ import SecondSection from '@/components/banner/second/SecondSection'
 import Portfolio from '@/components/banner/portfolio/Portfolio'
 import Footer from '@/components/footer/Footer'
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <>
     <Header />

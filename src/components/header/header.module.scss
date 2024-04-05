@@ -13,7 +13,7 @@
     width: 100%; 
   }
 
-  @media (max-width: 376px) {
+  @media screen and (max-width: 376px) {
     .burger {
       margin-top: 28px;
       margin-right: 10px;
@@ -24,7 +24,7 @@
       width: 400px;
       height: 500px;
       background: #111111;
-      top: 106px;
+      top: 109px;
       right: 0;
       position: absolute;
       border: 1px solid none;
